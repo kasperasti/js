@@ -52,14 +52,3 @@ small3.onclick = function(){
         alert('картинка не существует')
     };
 }
-
-
-
-
-
-
-
-
-//big1.style.display = "block";
-//        if (big2.style.display = "block"){
-//            big2.style.display = "none";
