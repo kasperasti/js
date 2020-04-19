@@ -1,0 +1,38 @@
+.slider {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.photos {  
+    border: 30px solid transparent;
+    border-image-source: url(img/frame-8.png);
+    border-image-slice: 40;
+    border-image-repeat: stretch round;
+}
+
+.slider img {
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+
+.slider img:first-child {
+    display: block;
+}
+.buttons {
+    padding-top: 20px;
+}
+button {
+    margin: 0 20px;
+    width: 100px;
+    height: 25px;
+    background-color: burlywood;
+    border-color: black;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: chocolate;
+}

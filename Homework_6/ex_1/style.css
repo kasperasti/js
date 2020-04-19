@@ -1,0 +1,26 @@
+.pic-small {
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.pic-small img {
+    width: 100%;
+    padding: 25px;
+    
+}
+.pic-big {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.pic-big img {
+    width: 100%;
+    display: none;
+}
+.showed {
+    display:block;
+}
